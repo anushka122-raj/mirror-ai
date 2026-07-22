@@ -1,31 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Mirror AI
 
-## Getting Started
+An AI-powered Resume Analyzer and Career Assistant built with Next.js and TypeScript.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- Upload resume in PDF format
+- Extract text from resumes
+- ATS score calculation
+- Resume parsing
+- Company-specific resume matching
+- Interview preparation module
+- Personalized learning roadmap
+
+## Tech Stack
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- PDF.js
+
+## Project Structure
+
+```
+src/
+ ├── app/
+ │   ├── dashboard/
+ │   ├── resume/
+ │   ├── interview/
+ │   ├── roadmap/
+ │   ├── api/
+ │   └── components/
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Future Improvements
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- AI-powered resume suggestions
+- Skill gap analysis
+- Job recommendation engine
+- Mock interview chatbot
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Author
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Anushka Raje Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
